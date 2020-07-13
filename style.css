@@ -15,7 +15,7 @@ h1 {
   display: flex;
   height: 304px;
   width: 304px;
-  border: 2px green solid;
+  border: 2px black solid;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
