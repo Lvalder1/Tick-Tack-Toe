@@ -1,0 +1,33 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+}
+
+.game-board {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 304px;
+  width: 304px;
+  border: 2px green solid;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.game-board div {
+  height: 100px;
+  width: 100px;
+  border: 2px black solid;
+}
+/*# sourceMappingURL=style.css.map */

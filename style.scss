@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+}
+
+.game-board {
+    display: flex;
+    height: 304px;
+    width: 304px;
+    border: 2px green solid;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    
+    
+
+    div {
+        height: 100px;
+        width: 100px;
+        border: 2px black solid;
+    }
+}
