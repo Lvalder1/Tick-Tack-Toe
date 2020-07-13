@@ -62,3 +62,12 @@ for (let i = 0; i < boxes.length; i++) {
     }
   });
 }
+
+showWinner = (x, y, z) => {
+    boxes[x].style.background = "red";
+    boxes[y].style.background = "red";  
+    boxes[z].style.background = "red";
+    document.getElementById = ("winner").innerHTML = 
+        currentPlayer == "x" ? "O" : "X"; 
+    console.log("winner");
+}
