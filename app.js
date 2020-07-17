@@ -63,10 +63,24 @@ for (let i = 0; i < boxes.length; i++) {
   });
 }
 
+const reset = document.getElementById("reset-button").addEventListener("click", function(){
+for (let i = 0; i < boxes.length; i++) {
+  boxes[i].innerHTML = "";
+  boxes[i].style.background = "white"; 
+}
+  currentPlayer = "x";
+  document.getElementById ("winner"). innerHTML = ""; 
+  gameStatus = "Game On";
+});
+
 showWinner = (x, y, z) => {
     boxes[x].style.background = "red";
     boxes[y].style.background = "red";  
     boxes[z].style.background = "red";
     document.getElementById("winner").innerHTML =
     "Winner is Player: " + [currentPlayer == "x" ? "O" : "X"];
+    gameStatus = "Game End"; 
 }
+
+
+
